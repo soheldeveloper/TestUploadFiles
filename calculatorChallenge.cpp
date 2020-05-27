@@ -20,7 +20,7 @@ int main(){
 	int x, y;
 	
 	while(op != 'e'){
-		cout << "What operation would you like to perform: add(+), subtract(-), divide(/), multiply(*), [e]xit?";
+		cout << "What operation would you like to perform: add(+), subtract(-), divide(/), multiply(*), [e]xit?" << endl;
 		cin >> op;
 		switch(op){
 			case '+':
